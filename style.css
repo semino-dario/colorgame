@@ -1,0 +1,93 @@
+
+
+body {
+background-color: #232323
+}
+
+h1{
+text-align: center;
+font-family: 'Fascinate', cursive;
+}
+
+h2{
+  margin: 0 auto;
+  text-align: center;
+  width: 430px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.titulo {
+color: white;
+}
+
+#message {
+color: white;
+font-size: 30px;
+font-family: 'Fredoka One', cursive;
+}
+
+#stripe{
+background-color: #232323;
+text-align: center;
+height: 100px;
+}
+
+.cajaBotones{
+margin: 10px auto;
+width: 500px;
+border-style: solid;
+border-width: 1px;
+border-radius: 30px;
+border-color: white;
+text-align: center;
+padding: 1%;
+}
+
+.boton{
+  outline: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #232323;
+  border-color: white;
+  border-width: 1.5px;
+  margin: 3px 10px;
+}
+
+.boton:hover{
+  background-color:white;
+  color: black;
+}
+
+.botonColores{
+width: 180px;
+margin-right: 80px;
+}
+
+.selected{
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.container {
+  width: 600px;
+  height: 380px;
+  margin: 5% auto;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 40px;
+  padding: 1%;
+  padding-left: 2.2%;
+}
+
+.square{
+float:left;
+width: 30%;
+height: 0;
+padding-bottom: 30%;
+margin:1%;
+border-radius: 150%;
+transition: background-color, 0.5s;
+}
